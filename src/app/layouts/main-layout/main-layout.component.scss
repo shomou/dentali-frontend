@@ -1,0 +1,17 @@
+.main-layout-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f4f7f6; // Un color de fondo suave
+}
+
+.main-content-area {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow-y: auto; // Permite scroll solo en el área de contenido
+}
+
+.content {
+  flex-grow: 1;
+  padding: 2rem; // Espaciado interno para el contenido
+}

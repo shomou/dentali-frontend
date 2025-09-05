@@ -1,0 +1,12 @@
+<div class="main-layout-container">
+    <app-sidebar></app-sidebar>
+    
+    <div class="main-content-area">
+        <app-navbar></app-navbar>
+        <main class="content">
+            <!-- Aquí se renderizarán los componentes de las rutas hijas (Dashboard, Pacientes, etc. ) -->
+            <router-outlet></router-outlet>
+        </main>
+        <app-footer></app-footer>
+    </div>
+</div>
